@@ -1,0 +1,4 @@
+DataCamp 5 Data frames
+head()
+subset(x,conditions)
+order()
