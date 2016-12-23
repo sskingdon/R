@@ -19,7 +19,7 @@ Question 7  :How can I retrieve the information at row 546 and colomn 3 to 4?
 
 
 
- What is the total weight of the chickens?  sum(ChickWeight[,"weight"])
+What is the total weight of the chickens?  sum(ChickWeight[,"weight"])
 
 What is the average age of the chickens?
 
@@ -28,7 +28,7 @@ What is the most possible diet that would raise chickens with the heaviest avera
 For chicken type 1 and 2, Which one has the heaviest average weight?            
              
   
-12
+
 
 
 
