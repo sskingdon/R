@@ -17,7 +17,7 @@ txtns <- tm_map(txt[1], removeWords, stopwords("english"))
 # ......
 dtm <- DocumentTermMatrix(txt)
 findFreqTerms(dtm,20)
-findAssocs(dtm, "work", 0.2)   
+findAssocs(dtm, "work", 0.2)
 library(Rgraphviz)
 plot(dtm, terms = findFreqTerms(dtm, lowfreq = 5)[1:10], corThreshold = 0.5)
 (freq.terms <- findFreqTerms(dtm, lowfreq = 15))
