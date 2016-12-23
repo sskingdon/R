@@ -1,0 +1,5 @@
+﻿sed '/^$/d' The\ Philosopher\'s\ Stone\ page1to4.txt  > try.txt
+tr -d [:punct:] < try.txt > try-nopunct.txt
+tr [:upper:] [:lower:] < try-nopunct.txt >try-nolower.txt
+tr -d '\r' < try-nolower.txt > try-nolowerif.txt
+tr ' ' '\n' < try-nolowerif.txt >try-oneword.txt
