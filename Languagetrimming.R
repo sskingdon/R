@@ -1,5 +1,6 @@
 library(tm)
-path <- "~/tryy/The Philosopher's Stone.txt"
+library(stringr)
+path <- "~/iiiR/THe Philosopher's Stone.txt"
 text <- readLines(path,encoding="UTF-8")
 head(text,40)
 page <-"(Page | [0-9]* Harry Potter and the Philosophers Stone - J.K. Rowling)"
