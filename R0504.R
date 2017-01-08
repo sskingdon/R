@@ -10,7 +10,7 @@ answer04.1 <- local({
 })
 stopifnot(class(answer04.1) == "numeric")
 stopifnot(length(answer04.1) == 1)
-
+ 
 # 請問carrier為AA的飛機，是不是tailnum都有AA字眼？
 answer04.2 <- local({
   # 請填寫你的程式碼
